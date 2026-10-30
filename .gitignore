@@ -1,0 +1,44 @@
+# 本机安装的 Unity 编辑器不属于项目源码。
+/2022.3.62f3c1/
+
+# Unity 自动生成目录和本机配置。
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Ll]ogs/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/UserSettings/
+**/MemoryCaptures/
+**/Recordings/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.pdb
+
+# 前端依赖和构建结果可通过锁文件重新生成。
+**/node_modules/
+**/dist/
+**/coverage/
+
+# 本地数据、日志和敏感配置不随源码提交。
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.log
+*.exe
+.env
+.env.*
+!.env.example
+
+# 按本次交付范围暂不提交 AI 记录和演示视频。
+AI_LOG.md
+*.mp4
+*.mov
+*.avi
+*.webm
