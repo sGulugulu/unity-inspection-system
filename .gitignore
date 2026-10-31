@@ -5,12 +5,14 @@
 **/[Ll]ibrary/
 **/[Tt]emp/
 **/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emory[Cc]aptures/
+**/[Rr]ecordings/
+**/[Cc]rash[Rr]eports/
 **/[Oo]bj/
 **/[Bb]uild/
 **/[Bb]uilds/
-**/UserSettings/
-**/MemoryCaptures/
-**/Recordings/
+# Assets（包含 .meta）、Packages、ProjectSettings 是重开项目必需的内容，不忽略。
 .vs/
 .idea/
 *.csproj
@@ -36,9 +38,10 @@
 .env.*
 !.env.example
 
-# 按本次交付范围暂不提交 AI 记录和演示视频。
+# AI 记录及其他视频暂不提交，明确保留本次演示视频。
 AI_LOG.md
 *.mp4
 *.mov
 *.avi
 *.webm
+!/演示.mp4
